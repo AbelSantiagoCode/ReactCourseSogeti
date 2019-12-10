@@ -9,6 +9,8 @@ import Album from './Album';
 import Welcome from './Welcome';
 import TodoComponent from './HelloWorld';
 import UserApp from './UserApp';
+import MyTable from './MyTable';
+import NameForm from './NameForm';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Welcome name="OLE BRO"></Welcome>
         {/* <TodoComponent></TodoComponent> */}
         <UserApp></UserApp>
+        <MyTable></MyTable>
+        <NameForm></NameForm>
       </header>
     </div>
   );
